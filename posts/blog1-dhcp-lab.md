@@ -26,7 +26,7 @@ R2(dhcp-config)#exit
 R2(config)#ip dhcp excluded-address 192.168.1.1 
 ```
 
-ip dhcp excluded-address is used to exclude ip addresses from the DHCP pool.
+ip dhcp excluded-address is used to exclude ip addresses from the DHCP pool.  
 default-router and dns-server provide default gateway and DNS server information to clients.
 
 
@@ -38,7 +38,7 @@ R1(config)#int g0/0
 R1(config-if)#ip address dhcp
 ```
 
-ip address dhcps allowes R1 to automatically receive an IP address from R2 (DHCP Server)
+ip address dhcp allows R1 to automatically receive an IP address from R2 (DHCP Server)
 
 
 ### Step 3: Verify the DHCP configuration
